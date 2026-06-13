@@ -1,0 +1,79 @@
+:root {
+    --brand-orange: #f26522; /* Laranja SmartiFix */
+    --brand-purple: #662d91; /* Roxo SmartiFix */
+    --brand-orange-hover: #d9561b;
+    --brand-purple-hover: #4e2270;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Customizações com as cores da marca */
+.bg-orange {
+    background-color: var(--brand-orange) !important;
+    color: white !important;
+}
+
+.bg-purple {
+    background-color: var(--brand-purple) !important;
+    color: white !important;
+}
+
+.text-orange {
+    color: var(--brand-orange) !important;
+}
+
+.text-purple {
+    color: var(--brand-purple) !important;
+}
+
+.btn-orange {
+    background-color: var(--brand-orange);
+    color: white;
+    border: none;
+}
+.btn-orange:hover {
+    background-color: var(--brand-orange-hover);
+    color: white;
+}
+
+.btn-purple {
+    background-color: var(--brand-purple);
+    color: white;
+    border: none;
+}
+.btn-purple:hover {
+    background-color: var(--brand-purple-hover);
+    color: white;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #2A0053 !important;
+    border-right: none;
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    padding: 0.8rem 1rem;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-left: 4px solid var(--brand-orange);
+}
+
+.sidebar hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.5rem;
+}
